@@ -1,3 +1,77 @@
-body {
-	background-color: blue;
+#header-nav {
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.navbar-brand h1 {
+	font-size: 1.2em;
+	margin-top: 2px;
+	margin-bottom: 0;
+	color: black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  margin-top: 10px;
+}
+
+#nav-list li {
+	clear: both;
+}
+
+#food-borders {
+	border: 2px solid black;
+	background-color: #D3D3D3;
+	margin-bottom: 10px;
+}
+
+#nav-list li a {
+	color: black;
+	background-color: #F9F9F9;
+	margin-bottom: 5px;
+}
+
+#food-borders a h3 {
+	text-decoration: none;
+	color: black;
+}
+
+.bottom-text {
+	padding: 0 10px 0 10px;
+	margin: 10px 0 10px;
+}
+
+#food-tiles {
+	overflow: hidden;
+	margin-bottom: 15px;
+	padding: 0 10px 0 10px;
+}
+
+.navbar-brand {
+	font-size: 200%;
+	color: black;
+}
+
+.food-title {
+	font-size: 150%;
+	text-align: center;
+	margin: 10px 0 10px;
+}
+
+.header-text a:hover, .header-text a:hover {
+	text-decoration: none;
+}
+
+.header-text p {
+	font-size: 180%;
+	margin: 10px 0 10px;
+	color: black;
 }

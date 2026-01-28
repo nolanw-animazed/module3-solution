@@ -1,12 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Module 3 Solution</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+	<header>
+		<nav id="header-nav">
+			<div class="container">
+				<div class="navbar-header">
+					<div class="navbar-brand">
+						<a href="index.html"><h1>Food, LLC</h1></a>
+					</div>		
+				
 
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+					<span class="sr-only">Toggle Navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				</div>
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+						<li>
+							<a href="#chicken-text">
+								Chicken Text
+							</a>
+						</li>
+						<li>
+							<a href="#beef-text">
+								Beef Text
+							</a>
+						</li>
+						<li>
+							<a href="#sushi-text">
+								Sushi Text
+							</a>
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<div id="main-content" class="container">
+		<div class="header-text">
+			<a name="menu-text"><p class="text-center">Our Menu</p> </a>
+		</div>
+		<div id="text-tiles" class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div id="food-borders">
+					<a name="chicken-text">
+						<h3 class="food-title">Chicken</h3>
+					</a>
+					<div id="food-tiles">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium tincidunt magna, a maximus urna luctus eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel ante ex. Sed et ultrices elit. Nam sit amet cursus lacus. Quisque vitae lacus odio. Phasellus placerat molestie tincidunt. Aenean nec dictum tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium sollicitudin erat id tempus. Sed vestibulum pellentesque dui. Donec ultricies pharetra purus, ac hendrerit libero consequat a. Curabitur nec tempor risus. Duis ex lorem, dapibus at commodo id, mattis a nunc. Integer pharetra ipsum id facilisis interdum. Quisque in nunc sapien. Pellentesque aliquet lacinia erat, at mattis justo feugiat et. Maecenas ac rhoncus nunc, a semper nunc. Mauris lacinia suscipit euismod. Vestibulum cursus vehicula tellus a egestas. Vivamus massa dui, varius id magna ut, mattis tincidunt nisi. Vivamus quis iaculis tellus. Donec sodales pharetra velit sit amet ultricies. Aliquam elit tellus, aliquam quis dictum eget, elementum quis mauris. In hac habitasse platea dictumst. Mauris cursus odio non erat vulputate, eget finibus lacus dictum. Cras eu scelerisque nibh. Ut vel condimentum lorem, nec interdum justo. Praesent at malesuada tellus, at tincidunt dui. Cras a dui molestie, feugiat purus mattis, rhoncus lorem. Suspendisse tellus velit, fermentum eu sagittis vitae, aliquam eget massa. Integer in augue laoreet ligula volutpat condimentum varius eget quam. Phasellus vitae eleifend risus, nec facilisis justo. Donec ut congue mi, eget malesuada diam. Proin ut tempus tortor. Mauris facilisis enim purus, vel scelerisque eros elementum vitae. Quisque ultrices sodales ornare. Nulla dictum mi et euismod mattis. Sed eget magna ut erat tincidunt finibus. Praesent laoreet mauris vitae sem imperdiet malesuada. Sed efficitur lectus ut lectus blandit, tristique maximus magna pharetra. Aliquam sollicitudin venenatis urna, nec sodales ante venenatis et. Proin enim enim, venenatis non ultricies non, malesuada ac mi. Quisque finibus dignissim felis, quis ornare orci mattis eu. Aliquam nec nisl fermentum, luctus purus id, feugiat nulla. Duis eu arcu nibh. Integer consequat, ex eget consequat ornare, enim nulla laoreet neque, eu lobortis augue mauris viverra nisl. Nulla facilisi. Aliquam eu libero enim. Vestibulum ut molestie mi. Fusce ornare sed enim ac faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean mattis ultrices viverra. Nulla nec libero vel nibh blandit viverra. Morbi consectetur, massa ac feugiat semper, elit lorem commodo nisl, at euismod tellus diam sit amet lectus. In posuere dapibus varius. Integer congue vel justo ut tristique. Donec eu tortor ipsum. Morbi pharetra ut erat a luctus. Nulla vel condimentum est, vel faucibus justo.</div>
+					<div class="bottom-text">
+						<span>(End of Chicken Section) </span><a href="#menu-text">Back to Top</a>
+					</div>
+					</div>
+				</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div id="food-borders">
+					<a name="beef-text">
+						<h3 class="food-title">Beef</h3>
+					</a>
+					<div id="food-tiles">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis accumsan fringilla cursus. Morbi tincidunt ut ante sit amet placerat. Nulla facilisi. Suspendisse purus velit, interdum in sem in, facilisis lobortis nisl. Suspendisse vitae tempus mauris, non tempor urna. Curabitur in metus eu magna scelerisque ultricies sit amet sed urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum interdum facilisis mauris, ut tincidunt mauris accumsan a. Duis aliquet ut mi eget ornare. Nam fringilla feugiat erat rhoncus finibus. Mauris at nulla aliquet, vehicula velit dapibus, aliquam sapien. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus auctor diam orci, nec dictum ex efficitur sit amet. Nulla ut nisl arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec quis leo eget diam varius laoreet. Donec urna mi, maximus eget accumsan sit amet, congue ut leo. Proin luctus quam ut turpis imperdiet facilisis. Morbi eget tincidunt dui. Nam pulvinar et neque sed malesuada. Nullam ut vehicula justo. Donec sit amet ligula laoreet, luctus orci ullamcorper, placerat nibh. Nam orci nisi, euismod sit amet eros sed, placerat euismod felis. Quisque quis urna urna. Ut non diam eget tortor gravida ultrices. Integer posuere velit sed bibendum faucibus. Integer posuere eros magna, sit amet dictum sem blandit in. Nullam id finibus mi, malesuada sollicitudin sem. Mauris mollis, velit sit amet condimentum egestas, purus lacus pretium ligula, ac fermentum mauris lectus nec justo. Cras ex odio, vulputate aliquet rutrum eget, ornare eget leo. Nullam lacinia ex eu dictum luctus. Maecenas nisl dolor, pretium vitae finibus et, condimentum tincidunt risus. In quis dapibus tellus. Fusce cursus, ante aliquet bibendum porttitor, magna augue eleifend sem, in porta sapien urna et nunc. Maecenas in condimentum risus, vel suscipit lectus. Curabitur massa ligula, vestibulum eget dignissim non, egestas at dolor. Integer auctor convallis nulla non rutrum. Phasellus dapibus libero quis scelerisque fringilla. Aliquam luctus, urna cursus posuere commodo, sapien enim volutpat ligula, at mattis ante ipsum non massa. Ut id felis mollis, ultricies felis sit amet, semper mi. Maecenas accumsan pellentesque ligula a rhoncus. Maecenas ac elit enim. Aenean luctus eleifend ligula nec rhoncus. Vivamus nec erat et lorem molestie accumsan quis vel nisl. Aenean lacinia ligula quis magna iaculis, quis ornare justo commodo. Curabitur sit amet aliquam nisl. Mauris consequat, nisl eu auctor rhoncus, metus tellus laoreet justo, ut suscipit nulla est vel erat. Quisque sollicitudin odio faucibus sapien mattis, nec imperdiet erat porta. Nulla facilisi. Quisque congue, ex aliquam eleifend feugiat, turpis dolor sodales leo, sit amet bibendum dolor eros mattis augue. Mauris arcu mauris, euismod ac pharetra ut, fermentum id justo. Etiam mattis condimentum mi, eget tincidunt est hendrerit quis. Aenean sagittis lectus in tellus luctus, condimentum accumsan augue tristique. Mauris et sapien sit amet justo lobortis commodo nec eu lorem. Fusce ac ipsum iaculis, mattis tellus at, tempus lectus. Duis ornare mollis nunc ut molestie. Duis quis nulla elit. Morbi a posuere nisl. Ut et eleifend tellus. Suspendisse efficitur nibh tellus, a tincidunt nulla bibendum nec. Etiam volutpat ipsum ac gravida auctor. Integer quam felis, sollicitudin vitae laoreet vitae, porttitor vel urna. Aliquam a tellus id massa vehicula dictum. Sed gravida vel orci et viverra. Nunc lacinia nec massa et commodo. Curabitur iaculis, neque at gravida iaculis, lorem tellus sagittis augue, at vehicula nisi diam eget nibh. Curabitur feugiat diam a mattis venenatis. Aenean dignissim massa a porta sollicitudin. Cras eleifend at lectus eget dapibus. Morbi aliquam laoreet sagittis. Nunc hendrerit at dui non malesuada. Duis ac lectus eget leo posuere malesuada.</div>
+					<div class="bottom-text">
+						<span>(End of Beef Section) </span><a href="#menu-text">Back to Top</a>
+					</div>
+					</div>
+				</div>
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<div id="food-borders">
+					<a name="sushi-text">
+						<h3 class="food-title">Sushi</h3>
+					</a>
+					<div  id="food-tiles">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae metus vitae est sodales lacinia sed ut ante. Vivamus vehicula quam eget urna condimentum, id rhoncus lacus dictum. Sed eu orci elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer tellus dui, elementum ut diam et, bibendum vestibulum ipsum. Suspendisse non tempor urna. Cras venenatis lorem at nisl semper, in mattis nisl ornare. Cras et hendrerit dui. Cras ornare pellentesque interdum. Quisque eu enim eu justo tristique facilisis. Praesent at tellus et mi hendrerit accumsan. Nulla sollicitudin nulla hendrerit, ultrices felis non, pulvinar urna. Morbi lacinia, neque non volutpat fringilla, dui justo porta tortor, id suscipit est mi eget odio. Aenean nisl ligula, vulputate ut tempus vel, porta at lacus. Fusce ultricies, dolor in finibus congue, augue sapien semper massa, at pulvinar elit augue vitae mi. Vestibulum lacinia a orci ac auctor. Quisque lorem sem, convallis eget tristique nec, eleifend eu velit. Donec feugiat nec elit quis ullamcorper. Duis iaculis tortor id ligula accumsan, non mollis lorem maximus. Cras tempus accumsan odio, viverra sodales orci tincidunt a. Sed mollis tristique tempus. Vestibulum vel vulputate tellus. Curabitur efficitur, lacus imperdiet finibus pulvinar, ligula orci lacinia orci, id tempor ex massa et nibh. Praesent dignissim rutrum lorem nec sollicitudin. Curabitur auctor lectus eget metus hendrerit, a rutrum odio luctus. Praesent est mauris, elementum sed felis eu, dapibus faucibus lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et suscipit eros. Maecenas sed mauris ut ligula pulvinar interdum id ac libero. Aenean condimentum nisl sed accumsan faucibus. Etiam vitae dignissim dolor. Phasellus venenatis ante erat, nec fermentum enim tincidunt a. Phasellus erat nisl, molestie ac tortor vel, porttitor pharetra orci. Nullam non facilisis ex, non imperdiet urna. Pellentesque dapibus tincidunt lorem vitae rutrum. Nulla commodo quam non turpis laoreet, in euismod quam sollicitudin. Duis commodo sem quis metus lobortis, quis egestas neque consequat.</div>
+					<div class="bottom-text">
+					<span>(End of Sushi Section) </span><a href="#menu-text">Back to Top</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+ 	<script src="js/bootstrap.min.js"></script>
+ 	<script src="js/script.js"></script>
 </body>
 </html>
