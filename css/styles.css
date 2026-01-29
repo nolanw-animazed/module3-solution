@@ -1,5 +1,5 @@
 #header-nav {
-	background-color: grey;
+	background-color: #166DAB;
 	border-radius: 0;
 	border: 0;
 }
@@ -29,19 +29,23 @@
 
 #food-borders {
 	border: 2px solid black;
-	background-color: #D3D3D3;
+	background-color: #ADCCE0;
 	margin-bottom: 10px;
 }
 
 #nav-list li a {
 	color: black;
-	background-color: #F9F9F9;
+	background-color: #5EA3D1;
 	margin-bottom: 5px;
 }
 
 #food-borders a h3 {
 	text-decoration: none;
 	color: black;
+}
+
+#food-borders a:hover {
+	text-decoration: none;
 }
 
 .bottom-text {
@@ -66,7 +70,7 @@
 	margin: 10px 0 10px;
 }
 
-.header-text a:hover, .header-text a:hover {
+.header-text a:hover {
 	text-decoration: none;
 }
 
